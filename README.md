@@ -1,5 +1,4 @@
-# 🔥 My Mac Settings
-My VSCode personal settings
+# 🔥 VSCODE Sentings
 
 ## 🔗 Links
 ### Fonts
