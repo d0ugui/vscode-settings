@@ -26,6 +26,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
+  "explorer.compactFolders": false,
 
   //* Emmet
   "emmet.syntaxProfiles": {
