@@ -13,9 +13,8 @@
   "editor.lineHeight": 20,
   "terminal.integrated.fontSize": 12,
   "editor.tabSize": 2,
-  "editor.fontFamily": "JetBrains Mono, Fira Code",
+  "editor.fontFamily": "JetBrains Mono, Fira Code",                                                                
   "editor.fontLigatures": true,
-  "editor.renderLineHighlight": "gutter",
   "editor.rulers": [
     80,
     120
@@ -39,4 +38,9 @@
   //* Terminal
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "editor.renderWhitespace": "all",
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "git.confirmSync": false,
+  "explorer.confirmDragAndDrop": false,
 }
