@@ -1,7 +1,6 @@
 {
   //* Workbench
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Dracula",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.untitled.hint": "hidden",
@@ -23,9 +22,15 @@
   "editor.semanticHighlighting.enabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll.eslint": true
   },
+
+  //* VScode 
   "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
 
   //* Emmet
   "emmet.syntaxProfiles": {
@@ -35,12 +40,17 @@
     "javascript": "javascriptreact"
   },
 
+  //* Extensions
+  "extensions.ignoreRecommendations": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+
   //* Terminal
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "editor.renderWhitespace": "all",
-  "explorer.confirmDelete": false,
   "security.workspace.trust.untrustedFiles": "newWindow",
   "git.confirmSync": false,
-  "explorer.confirmDragAndDrop": false,
+  "editor.inlineSuggest.enabled": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorTheme": "Dracula",
 }
