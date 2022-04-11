@@ -1,5 +1,6 @@
 {
   //* Workbench
+  "workbench.colorTheme": "Dracula",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
@@ -10,7 +11,6 @@
   "editor.wordWrap": "on",
   "editor.fontSize": 16,
   "editor.lineHeight": 20,
-  "terminal.integrated.fontSize": 12,
   "editor.tabSize": 2,
   "editor.fontFamily": "JetBrains Mono, Fira Code",                                                                
   "editor.fontLigatures": true,
@@ -24,13 +24,13 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "editor.inlineSuggest.enabled": true,
+  "editor.renderWhitespace": "all",
 
   //* VScode 
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "javascript.updateImportsOnFileMove.enabled": "never",
-  "typescript.updateImportsOnFileMove.enabled": "never",
 
   //* Emmet
   "emmet.syntaxProfiles": {
@@ -47,10 +47,6 @@
   //* Terminal
   "terminal.integrated.enablePersistentSessions": false,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "editor.renderWhitespace": "all",
   "security.workspace.trust.untrustedFiles": "newWindow",
   "git.confirmSync": false,
-  "editor.inlineSuggest.enabled": true,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "workbench.colorTheme": "Dracula",
 }
