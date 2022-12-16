@@ -1,44 +1,45 @@
 {
   //* Workbench
-  "workbench.colorTheme": "Dracula",
+  "workbench.colorTheme": "Dracula Pro",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.untitled.hint": "hidden",
+  "workbench.productIconTheme": "fluent-icons",
 
   //* Editor settings
-  "editor.minimap.enabled": false,
   "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
   "editor.fontSize": 16,
   "editor.lineHeight": 20,
   "editor.tabSize": 2,
-  "editor.fontFamily": "JetBrains Mono, Fira Code",                                                                
+  "editor.fontFamily": "JetBrains Mono, Fira Code",
+  "editor.renderLineHighlight": "gutter",
   "editor.fontLigatures": true,
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.rulers": [80, 120],
   "editor.parameterHints.enabled": false,
   "editor.semanticHighlighting.enabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll": true
   },
   "editor.inlineSuggest.enabled": true,
   "editor.renderWhitespace": "all",
+  "editor.formatOnPaste": true,
+  "editor.suggestSelection": "first",
+  "eslint.alwaysShowStatus": true,
 
-  //* VScode 
+  //* VScode
+  "breadcrumbs.enabled": true,
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
 
   //* Emmet
-  "emmet.syntaxProfiles": {
-    "javascript": "jsx"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
+   "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
 
   //* Extensions
   "extensions.ignoreRecommendations": true,
@@ -49,4 +50,28 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "security.workspace.trust.untrustedFiles": "newWindow",
   "git.confirmSync": false,
+  "material-icon-theme.folders.associations": {
+    "domain": "core",
+    "infra": "app",
+    "main": "public",
+    "presentation": "connection",
+    "cryptography": "secure",
+    "entities": "class",
+    "repositories": "mappings",
+    "protocols": "resource",
+    "useCases": "components",
+    "subcomponents": "components",
+    "adapters": "connection",
+    "factories": "container",
+    "globals": "global",
+    "ui": "views"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    ".lintstagedrc.json": "tune"
+  },
+  "gitlens.defaultDateFormat": null,
+  "gitlens.hovers.currentLine.over": "line",
+  "liveServer.settings.donotShowInfoMsg": true,
 }
