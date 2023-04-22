@@ -1,6 +1,4 @@
 {
-  //* Workbench
-  "workbench.colorTheme": "Dracula Pro",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
@@ -27,7 +25,6 @@
   "editor.renderWhitespace": "all",
   "editor.formatOnPaste": true,
   "editor.suggestSelection": "first",
-  "eslint.alwaysShowStatus": true,
 
   //* VScode
   "breadcrumbs.enabled": true,
@@ -38,7 +35,7 @@
   "typescript.updateImportsOnFileMove.enabled": "never",
 
   //* Emmet
-   "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
   "emmet.includeLanguages": { "javascript": "javascriptreact" },
 
   //* Extensions
@@ -73,5 +70,14 @@
   },
   "gitlens.defaultDateFormat": null,
   "gitlens.hovers.currentLine.over": "line",
-  "liveServer.settings.donotShowInfoMsg": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "prettier.endOfLine": "auto",
+  "workbench.colorTheme": "Dracula Pro",
+  "editor.formatOnSave": true,
+  "files.eol": "\r\n",
 }
