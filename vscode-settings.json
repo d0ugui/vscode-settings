@@ -1,31 +1,51 @@
 {
+  "workbench.colorTheme": "Dracula Pro",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.untitled.hint": "hidden",
   "workbench.productIconTheme": "fluent-icons",
-
+  "workbench.colorCustomizations": {
+    "editorInlayHint.background": "#414141", // inlay-hint
+    "editorInlayHint.foreground": "#b9b9b9" // inlay-hint
+    // "tab.activeBackground": "#282c34", // one-dark-pro
+    // "activityBar.background": "#282c34", // one-dark-pro
+    // "sideBar.background": "#282c34" // one-dark-pro
+  },
   //* Editor settings
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "editor.fontSize": 16,
-  "editor.lineHeight": 20,
+  "editor.lineHeight": 22,
   "editor.tabSize": 2,
   "editor.fontFamily": "JetBrains Mono, Fira Code",
   "editor.renderLineHighlight": "gutter",
   "editor.fontLigatures": true,
-  "editor.rulers": [80, 120],
+  "editor.rulers": [
+    80,
+    120
+  ],
   "editor.parameterHints.enabled": false,
   "editor.semanticHighlighting.enabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true
   },
   "editor.inlineSuggest.enabled": true,
   "editor.renderWhitespace": "all",
   "editor.formatOnPaste": true,
   "editor.suggestSelection": "first",
-
+  "editor.formatOnSave": true,
+  // "editor.inlayHints.enabled": "on", // inlay-hint
+  // "editor.inlayHints.padding": true, // inlay-hint
+  // "javascript.inlayHints.parameterNames.enabled": "all", // inlay-hint
+  // "typescript.inlayHints.parameterNames.enabled": "all", // inlay-hint
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "graphql"
+  ],
   //* VScode
   "breadcrumbs.enabled": true,
   "explorer.compactFolders": false,
@@ -33,20 +53,22 @@
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
-
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
   //* Emmet
-  "emmet.syntaxProfiles": { "javascript": "jsx" },
-  "emmet.includeLanguages": { "javascript": "javascriptreact" },
-
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
   //* Extensions
   "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
-
-  //* Terminal
+  //* 
+  "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.enablePersistentSessions": false,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "security.workspace.trust.untrustedFiles": "newWindow",
-  "git.confirmSync": false,
   "material-icon-theme.folders.associations": {
     "domain": "core",
     "infra": "app",
@@ -68,16 +90,12 @@
     "tsconfig.json": "tune",
     ".lintstagedrc.json": "tune"
   },
+  // GitLens
   "gitlens.defaultDateFormat": null,
   "gitlens.hovers.currentLine.over": "line",
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // Formatter
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "[python]": {
-    "editor.formatOnType": true
-  },
-  "prettier.endOfLine": "auto",
-  "workbench.colorTheme": "Dracula Pro",
-  "editor.formatOnSave": true,
-  "files.eol": "\r\n",
+  "diffEditor.renderSideBySide": false,
 }
