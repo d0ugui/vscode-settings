@@ -1,21 +1,21 @@
 # Themes
 
-- Dracula Pro
+- Dracula
 
 # Extensions
 
+- Auto Rename Tag
 - Color Highlight
 - Docker
 - EditorConfig for VS Code
 - ESLint
-- Prettier
 - Fluent Icons
 - GitLens
-- GraphQL
-- Import Cost
 - Material Icon Theme
-- vscode-styled-components
-- PostCSS Language Support
+- Pretty TypeScript Errors
 - Prisma
 - TailwindCSS IntelliSense
-- Todo Highligh
+- tldraw
+- Prettier
+- vscode-styled-components
+- Version Lens
