@@ -10,7 +10,6 @@
 - EditorConfig for VS Code
 - ESLint
 - Fluent Icons
-- GitLens
 - Material Icon Theme
 - Pretty TypeScript Errors
 - Prisma
@@ -19,3 +18,4 @@
 - Prettier
 - vscode-styled-components
 - Version Lens
+- Simple React Snippets
