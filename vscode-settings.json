@@ -4,6 +4,7 @@
   "workbench.colorTheme": "Dracula Pro",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
+
   // Editor settings
   "editor.wordWrap": "on",
   "editor.fontSize": 16,
@@ -12,18 +13,21 @@
   "editor.fontFamily": "JetBrains Mono, Fira Code",
   "editor.fontLigatures": true,
   "editor.renderLineHighlight": "gutter",
-  "editor.rulers": [
-    80,
-    120
-  ],
+  "editor.rulers": [80, 120],
   "editor.parameterHints.enabled": false,
   "editor.semanticHighlighting.enabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true,"source.fixAll": true
+    "source.fixAll": "always",
+    "source.fixAll.eslint": "always",
+    "source.addMissingImports": "always",
+    "source.sortMembers": "always",
+    "source.organizeImports": "always"
   },
   "editor.inlineSuggest.enabled": true,
   "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+
   // VSCode stuff
   "breadcrumbs.enabled": true,
   "explorer.compactFolders": false,
@@ -31,6 +35,7 @@
   "explorer.confirmDelete": false,
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
+
   // Emmet
   "emmet.syntaxProfiles": {
     "javascript": "jsx"
@@ -38,6 +43,7 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
+
   // Extensions
   "extensions.ignoreRecommendations": true,
   "diffEditor.ignoreTrimWhitespace": false,
@@ -62,10 +68,11 @@
     "tsconfig.json": "tune",
     ".lintstagedrc.json": "tune"
   },
-  "gitlens.defaultDateFormat": null,
-  "gitlens.hovers.currentLine.over": "line",
   "git.confirmSync": false,
+
   // Terminal
   "terminal.integrated.defaultProfile.linux": "zsh",
-  "terminal.integrated.fontSize": 16
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.enablePersistentSessions": false
 }
