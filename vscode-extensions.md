@@ -19,3 +19,5 @@
 - vscode-styled-components
 - Version Lens
 - Simple React Snippets
+- GitLens
+- TODO Highlight

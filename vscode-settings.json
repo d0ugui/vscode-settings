@@ -27,6 +27,9 @@
   "editor.inlineSuggest.enabled": true,
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
+  "[prisma]": {
+    "editor.formatOnSave": true,
+  },
 
   // VSCode stuff
   "breadcrumbs.enabled": true,
@@ -74,5 +77,5 @@
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.persistentSessionReviveProcess": "never",
-  "terminal.integrated.enablePersistentSessions": false
+  "terminal.integrated.enablePersistentSessions": false,
 }
