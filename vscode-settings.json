@@ -28,8 +28,14 @@
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
   "[prisma]": {
-    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Prisma.prisma",
+    "editor.formatOnSave": true
   },
+
+  // Prettier
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 
   // VSCode stuff
   "breadcrumbs.enabled": true,
@@ -71,11 +77,12 @@
     "tsconfig.json": "tune",
     ".lintstagedrc.json": "tune"
   },
+  "material-icon-theme.activeIconPack": "nest",
   "git.confirmSync": false,
 
   // Terminal
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.persistentSessionReviveProcess": "never",
-  "terminal.integrated.enablePersistentSessions": false,
+  "terminal.integrated.enablePersistentSessions": false
 }
