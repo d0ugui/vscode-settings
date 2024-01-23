@@ -7,15 +7,15 @@
 
   // Editor settings
   "editor.wordWrap": "on",
-  "editor.fontSize": 16,
-  "editor.lineHeight": 20,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.8,
   "editor.tabSize": 2,
-  "editor.fontFamily": "JetBrains Mono, Fira Code",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.renderLineHighlight": "gutter",
   "editor.rulers": [80, 120],
   "editor.parameterHints.enabled": false,
-  "editor.semanticHighlighting.enabled": true,
+  "editor.semanticHighlighting.enabled": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": "always",
@@ -32,13 +32,8 @@
     "editor.formatOnSave": true
   },
 
-  // Prettier
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
-
   // VSCode stuff
-  "breadcrumbs.enabled": true,
+  "breadcrumbs.enabled": false,
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -80,9 +75,14 @@
   "material-icon-theme.activeIconPack": "nest",
   "git.confirmSync": false,
 
+  // Prettier
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
   // Terminal
   "terminal.integrated.defaultProfile.linux": "zsh",
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.persistentSessionReviveProcess": "never",
-  "terminal.integrated.enablePersistentSessions": false
+  "terminal.integrated.enablePersistentSessions": false,
 }
