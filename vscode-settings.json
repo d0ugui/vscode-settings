@@ -1,9 +1,9 @@
 {
   // Workbench
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Dracula Pro",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorTheme": "Dracula Pro",
 
   // Editor settings
   "editor.wordWrap": "on",
@@ -11,22 +11,22 @@
   "editor.lineHeight": 1.8,
   "editor.tabSize": 2,
   "editor.fontFamily": "JetBrains Mono",
+  "editor.formatOnSave": true,
   "editor.fontLigatures": true,
   "editor.renderLineHighlight": "gutter",
   "editor.rulers": [80, 120],
   "editor.parameterHints.enabled": false,
-  "editor.semanticHighlighting.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": "always",
+    // "source.fixAll": "always",
     "source.fixAll.eslint": "always",
-    "source.addMissingImports": "always",
-    "source.sortMembers": "always",
-    "source.organizeImports": "always"
+    // "source.addMissingImports": "always",
+    // "source.sortMembers": "always"
+    // "source.organizeImports": "always"
   },
   "editor.inlineSuggest.enabled": true,
   "editor.minimap.enabled": false,
-  "editor.formatOnSave": true,
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma",
     "editor.formatOnSave": true
@@ -50,7 +50,7 @@
 
   // Extensions
   "extensions.ignoreRecommendations": true,
-  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.ignoreTrimWhitespace": true,
   "material-icon-theme.folders.associations": {
     "domain": "core",
     "infra": "app",
@@ -70,7 +70,8 @@
   "material-icon-theme.files.associations": {
     "ormconfig.json": "database",
     "tsconfig.json": "tune",
-    ".lintstagedrc.json": "tune"
+    ".lintstagedrc.json": "tune",
+    "*.component.ts": "angular"
   },
   "material-icon-theme.activeIconPack": "nest",
   "git.confirmSync": false,
@@ -85,4 +86,10 @@
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.enablePersistentSessions": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  
+  // Prisma
+  "prisma.showPrismaDataPlatformNotification": false
 }
