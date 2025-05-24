@@ -1,9 +1,10 @@
 # Themes
 
-- Dracula Pro
+- Min Theme
 
 # Extensions
 
+- Astro
 - Auto Rename Tag
 - Color Highlight
 - Docker
@@ -11,7 +12,7 @@
 - ESLint
 - GitHub Copilot
 - GitLens
-- Material Icon Theme
+- Symbols
 - PostCSS Language Support
 - Prettier
 - Pretty TypeScript Errors
@@ -19,3 +20,4 @@
 - TailwindCSS IntelliSense
 - tldraw
 - Version Lens
+- Biome
